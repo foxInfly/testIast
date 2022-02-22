@@ -16,7 +16,9 @@ public class PersonController {
 
     @GetMapping("getPersonById")
     public ArrayList<Person> getPersonById(Integer id){
-        return personService.getPersonById(id);
+        ArrayList<Person> personById = personService.getPersonById(id);
+        System.out.println(personById);
+        return personById;
 
     }
 }
