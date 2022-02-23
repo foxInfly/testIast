@@ -1,0 +1,9 @@
+
+## ??spring-boot-autoconfigure-2.2.2.RELEASE.jar
+## ???org.springframework.boot.autoconfigure.data.redis.RedisProperties??
+spring:
+  redis:
+    host: 10.0.1.255
+    database: 0
+    port: 6379
+    password: 123456
